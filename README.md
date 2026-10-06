@@ -22,11 +22,11 @@ graph of this repo is the history of who found what.
 
 ## Numbers (updated on every merge)
 
-* accepted clips: **0** from **0** videos
-* clips with raw audio in this repo (open licences only): **0**
-* by situation: none yet
-* by sound type: none yet
-* by site: none yet
+* accepted clips: **29** from **11** videos
+* clips with raw audio in this repo (open licences only): **6**
+* by situation: attention 9, content 6, angry 5, distress 5, hunting 3, food 1
+* by sound type: meow 21, purr 4, yowl 3, growl 1
+* by site: archive 24, commons 5
 
 ## Models (trained from scratch on this data)
 

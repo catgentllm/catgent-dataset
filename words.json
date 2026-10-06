@@ -1,0 +1,369 @@
+{
+ "silhouette": 0.294,
+ "clips": 29,
+ "words": [
+  {
+   "code": "W01",
+   "count": 14,
+   "kinds": {
+    "meow": 13,
+    "yowl": 1
+   },
+   "meanings": {
+    "attention": 0.643,
+    "content": 0.143,
+    "distress": 0.071,
+    "angry": 0.071,
+    "hunting": 0.071
+   },
+   "exampleClipIds": [
+    67,
+    41,
+    34,
+    35,
+    40
+   ],
+   "exampleLocalIds": [
+    "20261006-ce6f21a48c",
+    "20261006-28aad063d6",
+    "20261006-f25fa06bb2",
+    "20261006-a387000241",
+    "20261006-2869002a5e"
+   ],
+   "prototypeClipId": 41,
+   "distinctive": [
+    {
+     "context": "attention",
+     "lift": 2.07,
+     "share": 0.643
+    }
+   ],
+   "pattern": {
+    "prototypeClipId": 41,
+    "n": 14,
+    "distinct": [
+     {
+      "context": "attention",
+      "lift": 2.07,
+      "share": 0.643
+     }
+    ],
+    "durationSec": 2.54,
+    "durationIqr": 1.32,
+    "pitchHz": 553,
+    "pitchIqr": 839.0,
+    "pitchMinHz": 415,
+    "pitchMaxHz": 693,
+    "contour": "flat",
+    "contourPoints": [
+     590.0,
+     619.0,
+     579.0,
+     699.0,
+     709.0,
+     684.0,
+     874.0,
+     762.0,
+     617.0,
+     681.0,
+     850.0,
+     748.0,
+     799.0,
+     814.0,
+     715.0,
+     711.0
+    ],
+    "tonal": 0.69,
+    "repeats": 2.0,
+    "loudnessDb": -27.5,
+    "centroidHz": 2694,
+    "description": "long flat meow, 2.5 s, about 550 Hz, tonal, repeated 2 times"
+   }
+  },
+  {
+   "code": "W02",
+   "count": 4,
+   "kinds": {
+    "purr": 4
+   },
+   "meanings": {
+    "content": 1.0
+   },
+   "exampleClipIds": [
+    14,
+    17,
+    19,
+    45
+   ],
+   "exampleLocalIds": [
+    "20261006-1efe633093",
+    "20261006-7ff3376970",
+    "20261006-6e16a6b15b",
+    "20261006-3f410cb46d"
+   ],
+   "prototypeClipId": 14,
+   "distinctive": [
+    {
+     "context": "content",
+     "lift": 4.83,
+     "share": 1.0
+    }
+   ],
+   "pattern": {
+    "prototypeClipId": 14,
+    "n": 4,
+    "distinct": [
+     {
+      "context": "content",
+      "lift": 4.83,
+      "share": 1.0
+     }
+    ],
+    "durationSec": 3.1,
+    "durationIqr": 2.3,
+    "pitchHz": null,
+    "pitchIqr": null,
+    "pitchMinHz": null,
+    "pitchMaxHz": null,
+    "contour": "flat",
+    "contourPoints": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "tonal": 0.01,
+    "repeats": 1.0,
+    "loudnessDb": -47.5,
+    "centroidHz": 1404,
+    "description": "long purr, 3.1 s, no clear pitch, noisy, single"
+   }
+  },
+  {
+   "code": "W03",
+   "count": 4,
+   "kinds": {
+    "meow": 4
+   },
+   "meanings": {
+    "distress": 1.0
+   },
+   "exampleClipIds": [
+    11,
+    9,
+    15,
+    13
+   ],
+   "exampleLocalIds": [
+    "20261006-ac228f11f2",
+    "20261006-c6b09a3bd9",
+    "20261006-5908e2bbb8",
+    "20261006-9dd76d67bd"
+   ],
+   "prototypeClipId": 11,
+   "distinctive": [
+    {
+     "context": "distress",
+     "lift": 5.8,
+     "share": 1.0
+    }
+   ],
+   "pattern": {
+    "prototypeClipId": 11,
+    "n": 4,
+    "distinct": [
+     {
+      "context": "distress",
+      "lift": 5.8,
+      "share": 1.0
+     }
+    ],
+    "durationSec": 2.98,
+    "durationIqr": 2.12,
+    "pitchHz": 1027,
+    "pitchIqr": 1368.25,
+    "pitchMinHz": 820,
+    "pitchMaxHz": 1488,
+    "contour": "flat",
+    "contourPoints": [
+     727.0,
+     1074.0,
+     922.0,
+     1175.0,
+     834.0,
+     368.0,
+     919.0,
+     352.0,
+     332.0,
+     304.0,
+     1076.0,
+     1033.0,
+     1054.0,
+     1057.0,
+     1333.0,
+     1334.0
+    ],
+    "tonal": 0.48,
+    "repeats": 1.5,
+    "loudnessDb": -36.1,
+    "centroidHz": 2519,
+    "description": "long flat meow, 3.0 s, about 1050 Hz, noisy, repeated 2 times"
+   }
+  },
+  {
+   "code": "W04",
+   "count": 3,
+   "kinds": {
+    "growl": 1,
+    "yowl": 2
+   },
+   "meanings": {
+    "angry": 1.0
+   },
+   "exampleClipIds": [
+    3,
+    49,
+    51
+   ],
+   "exampleLocalIds": [
+    "20261006-1083e44271",
+    "20261006-6d12c1dfae",
+    "20261006-f6ddb90d44"
+   ],
+   "prototypeClipId": 3,
+   "distinctive": [
+    {
+     "context": "angry",
+     "lift": 5.8,
+     "share": 1.0
+    }
+   ],
+   "pattern": {
+    "prototypeClipId": 3,
+    "n": 3,
+    "distinct": [
+     {
+      "context": "angry",
+      "lift": 5.8,
+      "share": 1.0
+     }
+    ],
+    "durationSec": 2.3,
+    "durationIqr": 0.62,
+    "pitchHz": 280,
+    "pitchIqr": 109.0,
+    "pitchMinHz": 181,
+    "pitchMaxHz": 327,
+    "contour": "falling",
+    "contourPoints": [
+     null,
+     266.0,
+     243.0,
+     341.0,
+     382.0,
+     333.0,
+     332.0,
+     303.0,
+     324.0,
+     293.0,
+     293.0,
+     287.0,
+     281.0,
+     234.0,
+     235.0,
+     233.0
+    ],
+    "tonal": 0.66,
+    "repeats": 1.0,
+    "loudnessDb": -29.3,
+    "centroidHz": 1177,
+    "description": "long falling yowl, 2.3 s, about 300 Hz, tonal, single"
+   }
+  },
+  {
+   "code": "W05",
+   "count": 4,
+   "kinds": {
+    "meow": 4
+   },
+   "meanings": {
+    "hunting": 0.5,
+    "angry": 0.25,
+    "food": 0.25
+   },
+   "exampleClipIds": [
+    60,
+    25,
+    32,
+    68
+   ],
+   "exampleLocalIds": [
+    "20261006-60a0925b86",
+    "20261006-1a339eb536",
+    "20261006-1313dcd86d",
+    "20261006-cf5f441c9b"
+   ],
+   "prototypeClipId": 60,
+   "distinctive": [
+    {
+     "context": "hunting",
+     "lift": 4.83,
+     "share": 0.5
+    }
+   ],
+   "pattern": {
+    "prototypeClipId": 60,
+    "n": 4,
+    "distinct": [
+     {
+      "context": "hunting",
+      "lift": 4.83,
+      "share": 0.5
+     }
+    ],
+    "durationSec": 1.6,
+    "durationIqr": 0.78,
+    "pitchHz": 246,
+    "pitchIqr": 169.0,
+    "pitchMinHz": 195,
+    "pitchMaxHz": 288,
+    "contour": "falling",
+    "contourPoints": [
+     276.0,
+     331.0,
+     348.0,
+     444.0,
+     364.0,
+     465.0,
+     455.0,
+     345.0,
+     217.0,
+     226.0,
+     410.0,
+     433.0,
+     410.0,
+     418.0,
+     430.0,
+     648.0
+    ],
+    "tonal": 0.45,
+    "repeats": 1.0,
+    "loudnessDb": -17.2,
+    "centroidHz": 1831,
+    "description": "long falling meow, 1.6 s, about 250 Hz, noisy, single"
+   }
+  }
+ ]
+}
