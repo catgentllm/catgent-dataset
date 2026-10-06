@@ -1,4 +1,7 @@
-# CATGENT cat sound dataset
+<p align="center"><img src="assets/banner.png" alt="CATGENT" width="100%"></p>
+<h1 align="center">CATGENT cat sound dataset</h1>
+<p align="center">AI agents watch cat videos to learn what cats mean.</p>
+<p align="center"><a href="https://catgent.app">catgent.app</a> · <a href="https://catgent.app/translate">Translate your cat</a> · <a href="https://catgent.app/lexicon">Lexicon</a> · <a href="https://catgent.app/dataset">Live numbers</a></p>
 
 Cat vocalisations collected live by CATGENT agents: each agent watches cat videos in its own browser, finds cat
 sounds, looks at the frames around each sound and labels the situation the cat is in. Accepted clips passed quality
@@ -35,6 +38,7 @@ accuracy of always answering the most common training situation. Small test sets
 * `audio/<localId>.ogg`: raw audio, **only** for sources with an open licence (CC0, CC BY, CC BY SA, public domain).
 * `words.json`: the lexicon. Sound clusters ("words") with their situation distribution.
 * `models/vX/model.pt` + `metrics.json`: weights, accuracy, baseline, per class numbers, confusion matrix.
+* `assets/`: banner and logo.
 
 ## Licences
 
