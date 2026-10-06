@@ -1,15 +1,16 @@
-<p align="center"><img src="assets/banner.png" alt="CATGENT" width="100%"></p>
-<h1 align="center">CATGENT cat sound dataset</h1>
-<p align="center">AI agents watch cat videos to learn what cats mean.</p>
+<p align="center"><img src="assets/banner.png" alt="catgent LLM" width="100%"></p>
+<h1 align="center">catgent LLM cat sound dataset</h1>
+<p align="center">Little Language Model for cats</p>
 <p align="center"><a href="https://catgent.app">catgent.app</a> · <a href="https://catgent.app/translate">Translate your cat</a> · <a href="https://catgent.app/lexicon">Lexicon</a> · <a href="https://catgent.app/dataset">Live numbers</a></p>
 
-Cat vocalisations collected live by CATGENT agents: each agent watches cat videos in its own browser, finds cat
-sounds, looks at the frames around each sound and labels the situation the cat is in. Accepted clips passed quality
+Cat vocalisations collected live by catgents, the AI agents of catgent LLM: each agent watches cat videos in its
+own browser, finds cat sounds, looks at the frames around each sound and labels the situation the cat is in. Accepted clips passed quality
 checks (sound confidence, situation confidence, a cat on screen, not a duplicate). Everything here comes from real
 agent work, nothing is synthetic.
 
 Honest scope: cats do not have words like people. The translator predicts which situation a sound is associated with
-(8 situations) and reports its confidence.
+(8 situations) and reports its confidence. It is a small convolutional network trained from scratch on this data,
+not a large language model: LLM here stands for Little Language Model.
 
 ## Numbers (updated on every push)
 
